@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7528" started-at="2018-04-13T10:04:38Z" finished-at="2018-04-13T10:04:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7528" started-at="2018-04-13T10:04:38Z" finished-at="2018-04-13T10:04:45Z">
+      <class name="org.qa.adactin.testcases.LoginPage">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.qa.adactin.testcases.LoginPage@968a59]" name="openBrowser" is-config="true" duration-ms="6400" started-at="2018-04-13T15:34:38Z" finished-at="2018-04-13T15:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactin.com/HotelAppBuild2/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="dataInfo()[pri:0, instance:org.qa.adactin.testcases.LoginPage@968a59]" name="dataInfo" is-config="true" duration-ms="0" started-at="2018-04-13T15:34:44Z" finished-at="2018-04-13T15:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataInfo -->
+        <test-method status="PASS" signature="LoginPageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.qa.adactin.testcases.LoginPage@968a59]" name="LoginPageTest" duration-ms="309" started-at="2018-04-13T15:34:45Z" data-provider="getData" finished-at="2018-04-13T15:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saiinya2011]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin@321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+      </class> <!-- org.qa.adactin.testcases.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
