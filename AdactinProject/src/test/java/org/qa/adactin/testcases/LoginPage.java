@@ -21,7 +21,9 @@ public class LoginPage extends StartUp {
 	public void LoginPageTest(String Sno, String user, String password) {
 		
 	new Login(driver)
-	.userName(user);
+	.userName(user)
+	.passWord(password)
+	.loginButton();
 	
 		
 	}

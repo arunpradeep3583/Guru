@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>F:\Pradeep_Selenium\Workspace\AdactinProject\testng.xml</span>
+                    <span>C:\Users\Intel\git\adactin\AdactinProject\Testcase.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.qa.adactin.testcases.LoginPage" hash-for-method="LoginPageTest(1, saiinya2011, Admin@321)">LoginPageTest(1, saiinya2011, Admin@321)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.qa.adactin.testcases.SearchHotelPage" hash-for-method="hotelSearch(1, saiinya2011, Admin@321, Paris)">hotelSearch(1, saiinya2011, Admin@321, Paris)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,15 +120,15 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.qa.adactin.testcases.LoginPage</span>
+              <span class="class-name">org.qa.adactin.testcases.SearchHotelPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginPageTest(1, saiinya2011, Admin@321)">
-                  </a> <!-- LoginPageTest(1, saiinya2011, Admin@321) -->
-                  <span class="method-name">LoginPageTest</span>
-                  <span class="parameters">(1, saiinya2011, Admin@321)</span>
+                  <a name="hotelSearch(1, saiinya2011, Admin@321, Paris)">
+                  </a> <!-- hotelSearch(1, saiinya2011, Admin@321, Paris) -->
+                  <span class="method-name">hotelSearch</span>
+                  <span class="parameters">(1, saiinya2011, Admin@321, Paris)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,18 +136,18 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Pradeep_Selenium\Workspace\AdactinProject\testng.xml</span>
+            <span class="header-content">C:\Users\Intel\git\adactin\AdactinProject\Testcase.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;Suite&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;http://adactin.com/HotelAppBuild2/&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://adactin.com/HotelAppBuild2/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.qa.adactin.testcases.LoginPage&quot;/&gt;
+      &lt;class name=&quot;org.qa.adactin.testcases.SearchHotelPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -189,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginPageTest')
-data.setCell(0, 2, 'org.qa.adactin.testcases.LoginPage')
-data.setCell(0, 3, 309);
+data.setCell(0, 1, 'hotelSearch')
+data.setCell(0, 2, 'org.qa.adactin.testcases.SearchHotelPage')
+data.setCell(0, 3, 1471);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 309 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -222,18 +222,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.qa.adactin.testcases.LoginPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.qa.adactin.testcases.SearchHotelPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">openBrowser(chrome, http://adactin.com/HotelAppBuild2/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">dataInfo</span>
-                <span class="method-start">6416 ms</span>
+                <span class="method-name">testData</span>
+                <span class="method-start">6181 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">LoginPageTest(1, saiinya2011, Admin@321)</span>
-                <span class="method-start">7205 ms</span>
+                <span class="method-name">hotelSearch(1, saiinya2011, Admin@321, Paris)</span>
+                <span class="method-start">6900 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

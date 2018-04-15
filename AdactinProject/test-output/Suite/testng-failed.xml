@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="http://adactin.com/HotelAppBuild2/"/>
-  <test name="Test(failed)">
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://adactin.com/HotelAppBuild2/"/>
     <classes>
-      <class name="org.qa.adactin.testcases.LoginPage">
-        <methods>
-          <include name="dataInfo"/>
-          <include name="LoginPageTest" invocation-numbers="0"/>
-          <include name="openBrowser"/>
-        </methods>
-      </class> <!-- org.qa.adactin.testcases.LoginPage -->
+      <class name="org.qa.adactin.testcases.SearchHotelPage"/>
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->
