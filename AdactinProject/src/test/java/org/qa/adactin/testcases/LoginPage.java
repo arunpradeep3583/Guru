@@ -1,12 +1,11 @@
 package org.qa.adactin.testcases;
 
 import org.qa.adactin.pages.Login;
-import org.qa.adactin.startup.StartUp;
+import org.qa.adactin.startup.StartUps;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class LoginPage extends StartUp {
+public class LoginPage extends StartUps {
 	
 	
 	@BeforeClass

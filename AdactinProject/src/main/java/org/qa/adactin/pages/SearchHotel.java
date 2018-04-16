@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.qa.adactin.startup.StartUp;
+import org.qa.adactin.startup.StartUps;
 
-public class SearchHotel extends StartUp {
+public class SearchHotel extends StartUps {
 	
 public SearchHotel(RemoteWebDriver driver) {
 		this.driver=driver;

@@ -4,9 +4,8 @@
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="http://adactin.com/HotelAppBuild2/"/>
   <test name="Test">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="http://adactin.com/HotelAppBuild2/"/>
     <classes>
+      <class name="org.qa.adactin.testcases.LoginPage"/>
       <class name="org.qa.adactin.testcases.SearchHotelPage"/>
     </classes>
   </test> <!-- Test -->

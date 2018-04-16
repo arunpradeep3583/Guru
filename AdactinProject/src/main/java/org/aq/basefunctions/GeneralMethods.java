@@ -15,6 +15,7 @@ public class GeneralMethods {
 	
 	public RemoteWebDriver driver;
 	
+	
 	public void webBrowser(String browser, String url) {
 		
 		switch(browser) {
@@ -158,6 +159,10 @@ public void switchToWindow() {
 		}
 	}
 	
+}
+
+public void closeWebBrowser() {
+driver.quit();
 }
 
 }
