@@ -16,16 +16,6 @@ public class LoginTestCase extends StartUp {
 	public Properties prop;
 	String propFile = "F:\\Pradeep_Selenium\\NewWorkspace\\Guru\\src\\main\\java\\utils\\User.properties";
 	
-	@BeforeTest
-	public void testData() {
-		
-		String xlFile = "";
-		
-
-		
-		
-	}
-	
 	@Test
 	public void loginTest() throws IOException, InterruptedException {
 		
@@ -38,7 +28,7 @@ public class LoginTestCase extends StartUp {
 		.user(user)
 		.password(pass)
 		.loginButton();
-		Thread.sleep(2000);
+		
 		
 		
 		
