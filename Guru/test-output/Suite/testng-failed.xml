@@ -5,14 +5,13 @@
   <parameter name="url" value="http://www.demo.guru99.com/v4/index.php"/>
   <test name="Test(failed)">
     <classes>
-      <class name="Guru.Guru.DashBoardTest">
+      <class name="Guru.LoginTestCase">
         <methods>
           <include name="openWebBrowser"/>
-          <include name="dashboardTest"/>
-          <include name="data"/>
           <include name="closeWebBrowser"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- Guru.Guru.DashBoardTest -->
+      </class> <!-- Guru.LoginTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

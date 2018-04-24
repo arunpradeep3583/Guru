@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13991" started-at="2018-04-24T14:12:31Z" finished-at="2018-04-24T14:12:45Z">
+  <suite name="Suite" duration-ms="27636" started-at="2018-04-24T15:09:52Z" finished-at="2018-04-24T15:10:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13991" started-at="2018-04-24T14:12:31Z" finished-at="2018-04-24T14:12:45Z">
-      <class name="Guru.Guru.DashBoardTest">
-        <test-method status="PASS" signature="data()[pri:0, instance:Guru.Guru.DashBoardTest@1fa1d9b]" name="data" is-config="true" duration-ms="12" started-at="2018-04-24T19:42:31Z" finished-at="2018-04-24T19:42:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- data -->
-        <test-method status="PASS" signature="openWebBrowser(java.lang.String, java.lang.String)[pri:0, instance:Guru.Guru.DashBoardTest@1fa1d9b]" name="openWebBrowser" is-config="true" duration-ms="9349" started-at="2018-04-24T19:42:32Z" finished-at="2018-04-24T19:42:41Z">
+    <test name="Test" duration-ms="27636" started-at="2018-04-24T15:09:52Z" finished-at="2018-04-24T15:10:20Z">
+      <class name="Guru.LoginTestCase">
+        <test-method status="PASS" signature="openWebBrowser(java.lang.String, java.lang.String)[pri:0, instance:Guru.LoginTestCase@1832929]" name="openWebBrowser" is-config="true" duration-ms="13824" started-at="2018-04-24T20:39:52Z" finished-at="2018-04-24T20:40:06Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +23,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebBrowser -->
-        <test-method status="PASS" signature="dashboardTest()[pri:0, instance:Guru.Guru.DashBoardTest@1fa1d9b]" name="dashboardTest" duration-ms="3909" started-at="2018-04-24T19:42:41Z" finished-at="2018-04-24T19:42:45Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:Guru.LoginTestCase@1832929]" name="loginTest" duration-ms="2704" started-at="2018-04-24T20:40:06Z" finished-at="2018-04-24T20:40:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dashboardTest -->
-        <test-method status="PASS" signature="closeWebBrowser()[pri:0, instance:Guru.Guru.DashBoardTest@1fa1d9b]" name="closeWebBrowser" is-config="true" duration-ms="677" started-at="2018-04-24T19:42:45Z" finished-at="2018-04-24T19:42:45Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeWebBrowser()[pri:0, instance:Guru.LoginTestCase@1832929]" name="closeWebBrowser" is-config="true" duration-ms="700" started-at="2018-04-24T20:40:09Z" finished-at="2018-04-24T20:40:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWebBrowser -->
-      </class> <!-- Guru.Guru.DashBoardTest -->
+      </class> <!-- Guru.LoginTestCase -->
+      <class name="Guru.DashBoardTest">
+        <test-method status="PASS" signature="openWebBrowser(java.lang.String, java.lang.String)[pri:0, instance:Guru.DashBoardTest@1275dab]" name="openWebBrowser" is-config="true" duration-ms="22685" started-at="2018-04-24T20:39:52Z" finished-at="2018-04-24T20:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.demo.guru99.com/v4/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebBrowser -->
+        <test-method status="PASS" signature="dashboardTest()[pri:0, instance:Guru.DashBoardTest@1275dab]" name="dashboardTest" duration-ms="4249" started-at="2018-04-24T20:40:15Z" finished-at="2018-04-24T20:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method status="PASS" signature="closeWebBrowser()[pri:0, instance:Guru.DashBoardTest@1275dab]" name="closeWebBrowser" is-config="true" duration-ms="666" started-at="2018-04-24T20:40:19Z" finished-at="2018-04-24T20:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebBrowser -->
+      </class> <!-- Guru.DashBoardTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,30 +1,23 @@
-package Guru.Guru;
+package Guru;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import Pages.LoginPage;
 import StartTesting.StartUp;
 
-public class DashBoardTest extends StartUp{
-	
+public class LoginTestCase extends StartUp {
+
 	public Properties prop;
-	String propFile = "F:\\Pradeep_Selenium\\NewWorkspace\\Guru\\src\\main\\java\\utils\\User.properties";
-	
-	@BeforeTest
-	public void data() {
-		
-	}
+	String propFile = "C:\\Users\\Intel\\git\\guru\\Guru\\src\\main\\java\\utils\\User.properties";
 	
 	@Test
-	public void dashboardTest() throws IOException {
+	public void loginTest() throws IOException, InterruptedException {
 		
 		prop = new Properties();
 		FileInputStream path = new FileInputStream (propFile);
@@ -34,13 +27,14 @@ public class DashBoardTest extends StartUp{
 		new LoginPage(driver)
 		.user(user)
 		.password(pass)
-		.loginButton()
-		.newCustomer();
+		.loginButton();
 		
 		
 		
 		
 		
 	}
+	
+	
 
 }

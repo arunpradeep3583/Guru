@@ -5,7 +5,7 @@
 <parameter name = "url" value = "http://www.demo.guru99.com/v4/index.php"></parameter>
   <test name="Test">
     <classes>
-      <class name="Guru.Guru.DashBoardTest"/>
+      <class name="Guru.DashBoardTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
