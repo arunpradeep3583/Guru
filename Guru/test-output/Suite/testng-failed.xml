@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://www.demo.guru99.com/v4/index.php"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Guru.Guru.DashBoardTest">
+        <methods>
+          <include name="openWebBrowser"/>
+          <include name="dashboardTest"/>
+          <include name="data"/>
+          <include name="closeWebBrowser"/>
+        </methods>
+      </class> <!-- Guru.Guru.DashBoardTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
